@@ -1,0 +1,14 @@
+CREATE DATABASE dEVELOPER_DETAILS;
+USE dEVELOPER_DETAILS;
+CREATE TABLE dEVELOPER_DETAILS(SLNO int,DEVELOPER_name varchar(50),DEVELOPER_PHONE_NUM bigint, DEVELOPER_ID_NUM varchar(30),DEVELOPER_INTERVIEW_DATE date,DEVELOPER timestamp,DEVELOPER_BY varchar(50) default'X-workz');
+INSERT INTO dEVELOPER_DETAILS VALUE(1,"DEVELOPER_name",852147963,'ARUN0703',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(2,"Arun",9620753670,'ARUN0703',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(3,"Shivu",9945682265,'shivu2536',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(4,"Sachine",998820575,'Sachine2541',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(5,"Chetan",25657957,'Chetan0147',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(6,"Shreyan",852147963,'Shreyan2022',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(7,"DEVELOPER_name",852147963,'ARUN0703',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(8,"Arun",9620753670,'ARUN0703',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(9,"Shivu",9945682265,'shivu2536',current_date(),current_time(),now());
+INSERT INTO dEVELOPER_DETAILS VALUE(10,"Sachine",998820575,'Sachine2541',current_date(),current_time(),now());
+SELECT * FROM dEVELOPER_DETAILS;
